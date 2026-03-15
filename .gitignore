@@ -16,3 +16,4 @@ wheels/
 *.log
 
 requirements.txt
+scripts
