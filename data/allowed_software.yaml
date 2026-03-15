@@ -1,0 +1,409 @@
+software:
+  - id: microsoft_outlook
+    name: Microsoft Outlook
+    category: email
+    aliases:
+      - outlook
+      - microsoft outlook
+    ru_aliases:
+      - аутлук
+      - аутлуком
+      - аутлуке
+      - аутлок
+    search_queries:
+      - обзор Microsoft Outlook
+      - Microsoft Outlook возможности
+      - Microsoft Outlook для чего используется
+      - Microsoft Outlook почтовый клиент функции
+
+  - id: mozilla_thunderbird
+    name: Mozilla Thunderbird
+    category: email
+    aliases:
+      - thunderbird
+      - mozilla thunderbird
+    ru_aliases:
+      - тандерберд
+      - сандерберд
+    search_queries:
+      - обзор Mozilla Thunderbird
+      - Mozilla Thunderbird возможности
+      - Mozilla Thunderbird почтовый клиент функции
+      - Mozilla Thunderbird для чего используется
+
+  - id: gmail
+    name: Gmail
+    category: email
+    aliases:
+      - gmail
+      - google mail
+    ru_aliases:
+      - гмейл
+      - джимейл
+      - джимейлу
+      - джемейле
+    search_queries:
+      - обзор Gmail
+      - Gmail возможности
+      - Gmail для чего используется
+      - Gmail почтовый сервис функции
+
+  - id: microsoft_word
+    name: Microsoft Word
+    category: office
+    aliases:
+      - word
+      - microsoft word
+    ru_aliases:
+      - ворд
+      - ворде
+      - ворду
+    search_queries:
+      - обзор Microsoft Word
+      - Microsoft Word возможности
+      - Microsoft Word для чего используется
+      - Microsoft Word текстовый редактор функции
+
+  - id: microsoft_excel
+    name: Microsoft Excel
+    category: office
+    aliases:
+      - excel
+      - microsoft excel
+    ru_aliases:
+      - эксель
+      - экселе
+      - экселю
+      - экселем
+    search_queries:
+      - обзор Microsoft Excel
+      - Microsoft Excel возможности
+      - Microsoft Excel для чего используется
+      - Microsoft Excel функции таблиц
+
+  - id: microsoft_powerpoint
+    name: Microsoft PowerPoint
+    category: office
+    aliases:
+      - powerpoint
+      - microsoft powerpoint
+    ru_aliases:
+      - пауэрпоинт
+      - поверпоинт
+    search_queries:
+      - обзор Microsoft PowerPoint
+      - Microsoft PowerPoint возможности
+      - Microsoft PowerPoint для чего используется
+      - Microsoft PowerPoint программа для презентаций
+
+  - id: google_docs
+    name: Google Docs
+    category: office
+    aliases:
+      - google docs
+      - docs
+    ru_aliases:
+      - гугл докс
+    search_queries:
+      - обзор Google Docs
+      - Google Docs возможности
+      - Google Docs для чего используется
+      - Google Docs редактор документов функции
+
+  - id: google_sheets
+    name: Google Sheets
+    category: office
+    aliases:
+      - google sheets
+      - sheets
+    ru_aliases:
+      - гугл таблицы
+      - гугл шитс
+      - шитс
+    search_queries:
+      - обзор Google Sheets
+      - Google Sheets возможности
+      - Google Sheets для чего используется
+      - Google Sheets таблицы функции
+
+  - id: google_slides
+    name: Google Slides
+    category: office
+    aliases:
+      - google slides
+      - slides
+    ru_aliases:
+      - гугл презентации
+      - гугл слайдс
+      - гугл слайды
+    search_queries:
+      - обзор Google Slides
+      - Google Slides возможности
+      - Google Slides для чего используется
+      - Google Slides презентации функции
+
+  - id: zoom_meetings
+    name: Zoom Meetings
+    category: meetings
+    aliases:
+      - zoom
+      - zoom meetings
+    ru_aliases:
+      - зум
+    search_queries:
+      - обзор Zoom Meetings
+      - Zoom Meetings возможности
+      - Zoom Meetings для чего используется
+      - Zoom Meetings видеоконференции функции
+
+  - id: microsoft_teams
+    name: Microsoft Teams
+    category: meetings
+    aliases:
+      - teams
+      - microsoft teams
+      - ms teams
+    ru_aliases:
+      - тимс
+      - майкрософт тимс
+    search_queries:
+      - обзор Microsoft Teams
+      - Microsoft Teams возможности
+      - Microsoft Teams для чего используется
+      - Microsoft Teams командная работа функции
+
+  - id: google_meet
+    name: Google Meet
+    category: meetings
+    aliases:
+      - google meet
+      - meet
+    ru_aliases:
+      - гугл мит
+    search_queries:
+      - обзор Google Meet
+      - Google Meet возможности
+      - Google Meet для чего используется
+      - Google Meet видеовстречи функции
+
+  - id: slack
+    name: Slack
+    category: messengers
+    aliases:
+      - slack
+    ru_aliases:
+      - слак
+    search_queries:
+      - обзор Slack
+      - Slack возможности
+      - Slack для чего используется
+      - Slack корпоративный мессенджер функции
+
+  - id: telegram_messenger
+    name: Telegram Messenger
+    category: messengers
+    aliases:
+      - telegram
+      - telegram messenger
+    ru_aliases:
+      - телеграм
+      - телега
+    search_queries:
+      - обзор Telegram Messenger
+      - Telegram Messenger возможности
+      - Telegram Messenger для чего используется
+      - Telegram Messenger функции мессенджера
+
+  - id: whatsapp_messenger
+    name: WhatsApp Messenger
+    category: messengers
+    aliases:
+      - whatsapp
+      - whatsapp messenger
+    ru_aliases:
+      - ватсап
+      - вотсап
+      - вацап
+    search_queries:
+      - обзор WhatsApp Messenger
+      - WhatsApp Messenger возможности
+      - WhatsApp Messenger для чего используется
+      - WhatsApp Messenger функции мессенджера
+
+  - id: jira_software
+    name: Jira Software
+    category: project_management
+    aliases:
+      - jira
+      - jira software
+    ru_aliases:
+      - джира
+      - жира
+    search_queries:
+      - обзор Jira Software
+      - Jira Software возможности
+      - Jira Software для чего используется
+      - Jira Software управление проектами функции
+
+  - id: trello
+    name: Trello
+    category: project_management
+    aliases:
+      - trello
+    ru_aliases:
+      - трелло
+      - трело
+    search_queries:
+      - обзор Trello
+      - Trello возможности
+      - Trello для чего используется
+      - Trello управление задачами функции
+
+  - id: asana
+    name: Asana
+    category: project_management
+    aliases:
+      - asana
+    ru_aliases:
+      - асана
+      - осана
+    search_queries:
+      - обзор Asana
+      - Asana возможности
+      - Asana для чего используется
+      - Asana управление задачами функции
+
+  - id: clickup
+    name: ClickUp
+    category: project_management
+    aliases:
+      - clickup
+    ru_aliases:
+      - клик ап
+      - клик-ап
+      - кликап
+    search_queries:
+      - обзор ClickUp
+      - ClickUp возможности
+      - ClickUp для чего используется
+      - ClickUp управление проектами функции
+
+  - id: monday_com
+    name: monday.com
+    category: project_management
+    aliases:
+      - monday
+      - monday.com
+    ru_aliases:
+      - мондей
+      - мандей
+    search_queries:
+      - обзор monday.com
+      - monday.com возможности
+      - monday.com для чего используется
+      - monday.com управление проектами функции
+
+  - id: notion
+    name: Notion
+    category: notes
+    aliases:
+      - notion
+    ru_aliases:
+      - ноушн
+      - ношн
+    search_queries:
+      - обзор Notion
+      - Notion возможности
+      - Notion для чего используется
+      - Notion заметки и документы функции
+
+  - id: evernote
+    name: Evernote
+    category: notes
+    aliases:
+      - evernote
+    ru_aliases:
+      - эверноут
+      - еверноут
+    search_queries:
+      - обзор Evernote
+      - Evernote возможности
+      - Evernote для чего используется
+      - Evernote заметки функции
+
+  - id: microsoft_onenote
+    name: Microsoft OneNote
+    category: notes
+    aliases:
+      - onenote
+      - microsoft onenote
+    ru_aliases:
+      - ванноут
+      - уанноут
+      - ваноут
+      - уаноут
+    search_queries:
+      - обзор Microsoft OneNote
+      - Microsoft OneNote возможности
+      - Microsoft OneNote для чего используется
+      - Microsoft OneNote заметки функции
+
+  - id: google_drive
+    name: Google Drive
+    category: storage
+    aliases:
+      - google drive
+      - gdrive
+    ru_aliases:
+      - гугл диск
+      - гугл драйв
+    search_queries:
+      - обзор Google Drive
+      - Google Drive возможности
+      - Google Drive для чего используется
+      - Google Drive облачное хранилище функции
+
+  - id: dropbox
+    name: Dropbox
+    category: storage
+    aliases:
+      - dropbox
+    ru_aliases:
+      - дропбокс
+      - дроббокс
+      - дроп бокс
+      - дроб бокс
+    search_queries:
+      - обзор Dropbox
+      - Dropbox возможности
+      - Dropbox для чего используется
+      - Dropbox облачное хранилище функции
+
+  - id: microsoft_onedrive
+    name: Microsoft OneDrive
+    category: storage
+    aliases:
+      - onedrive
+      - microsoft onedrive
+    ru_aliases:
+      - вандрайв
+      - ван драйв
+      - уан драйв
+    search_queries:
+      - обзор Microsoft OneDrive
+      - Microsoft OneDrive возможности
+      - Microsoft OneDrive для чего используется
+      - Microsoft OneDrive облачное хранилище функции
+
+  - id: box
+    name: Box
+    category: storage
+    aliases:
+      - box
+    ru_aliases:
+      - бокс
+    search_queries:
+      - обзор Box
+      - Box возможности
+      - Box для чего используется
+      - Box облачное хранилище функции
