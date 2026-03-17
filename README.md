@@ -93,7 +93,7 @@ cd project
 ### 2. Установка зависимостей
 
 ```bash
-pip install -r requirements.txt
+uv sync -n
 ```
 
 ### 3. Настройка .env
