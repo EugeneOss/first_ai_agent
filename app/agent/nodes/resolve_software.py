@@ -79,7 +79,35 @@ def resolve_software_node(state: AgentState) -> dict[str, Any]:
                 "error": "normalized_query_is_empty",
                 "web_queries": []
             }
-    
+
+        intent_result = intent_classifier_llm.invoke(
+            system_prompt + [HumanMessage(content=normalized_query)]
+        )
+
+        input_type = getattr(intent_result, "input_type", None)
+        
+        if input_type == "allowed_softwares_query":
+            return {
+                "intent_type": "allowed_software",
+                "matched_softwares": [],
+                "resolved_software": None,
+                "clarification_needed": False,
+                "error": None,
+                "needs_web_search": False,
+                "web_queries": []
+            }
+
+        if input_type == "general_chat":
+            return {
+                "intent_type": "general_chat",
+                "matched_softwares": [],
+                "resolved_software": None,
+                "clarification_needed": False,
+                "error": None,
+                "needs_web_search": False,
+                "web_queries": []
+            }
+
         matched_softwares = _extract_matched_softwares(normalized_query)
 
         if not matched_softwares:
@@ -103,32 +131,17 @@ def resolve_software_node(state: AgentState) -> dict[str, Any]:
                 "needs_web_search": False,
                 "web_queries": []
             }
-        
-        intent_result = intent_classifier_llm.invoke(
-            system_prompt + [HumanMessage(content=normalized_query)]
-        )
 
         resolved_software = matched_softwares[0]
 
-        input_type = getattr(intent_result, "input_type", None)
-
-        if input_type == "allowed_softwares_query":
-            final_intent = "allowed_software"
-            needs_web_search = False
-            web_queries = []
-        else:
-            final_intent = "software_info"
-            needs_web_search = True
-            web_queries = resolved_software["search_queries"]
-
         return {
-            "intent_type": final_intent,
+            "intent_type": "software_info",
             "matched_softwares": matched_softwares,
             "resolved_software": resolved_software,
             "clarification_needed": False,
             "error": None,
-            "needs_web_search": needs_web_search,
-            "web_queries": web_queries
+            "needs_web_search": True,
+            "web_queries": resolved_software["search_queries"]
         }
         
 

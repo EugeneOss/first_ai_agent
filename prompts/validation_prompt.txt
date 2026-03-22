@@ -56,34 +56,37 @@ Category: software_info
 Input: обзор microsoft word
 Category: software_info
 
-Input: разрешен ли word
+Input: разрешен ли word?
 Category: allowed_softwares_query
 
-Input: можно ли использовать zoom
+Input: можно ли использовать zoom?
 Category: allowed_softwares_query
 
-Input: можно ли использовать джиру/жиру
+Input: можно ли использовать джиру/жиру?
 Category: allowed_softwares_query
 
-Input: какие программы разрешены
+Input: какие программы разрешены?
 Category: allowed_softwares_query
 
-Input: разрешена ли программа notion
+Input: разрешена ли программа notion?
+Category: allowed_softwares_query
+
+Input: Какие программы я могу использовать?
 Category: allowed_softwares_query
 
 Input: список разрешенного по
 Category: allowed_softwares_query
 
-Input: есть ли slack в списке разрешенных
+Input: есть ли slack в списке разрешенных?
 Category: allowed_softwares_query
 
-Input: можно ли установить google docs
+Input: можно ли установить google docs?
 Category: allowed_softwares_query
 
-Input: входит ли teams в разрешенное по
+Input: входит ли teams в разрешенное по?
 Category: allowed_softwares_query
 
-Input: какие приложения разрешены в компании
+Input: какие приложения разрешены в компании?
 Category: allowed_softwares_query
 
 Input: word
